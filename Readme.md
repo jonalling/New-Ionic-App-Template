@@ -1,4 +1,4 @@
-# Build your app
+# Building your app
 #### Ionic CLI
 
 Navigate to your Ionic installation directory
@@ -31,6 +31,8 @@ If you are using a cordova plugin, add it now.
 
 ```sh
 $ cordova plugin add cordova-plugin-device-motion
+**good to always add**
+$ cordova plugin add org.apache.cordova.statusbar
 ```
 
 If you have other dependencies you want to add (i.e. d3.js), do that next. 
