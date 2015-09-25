@@ -52,8 +52,7 @@ This is the point I usually build the project and test it by running in xCode.
 ```sh
 $ ionic build ios
 ```
-# Prepare Code
-#### Index.html
+# Prepare Index.html
 
 For cordova plugins add reference to ng-cordova.js, above default cordova.js line
 
@@ -62,24 +61,14 @@ For cordova plugins add reference to ng-cordova.js, above default cordova.js lin
 <script src="cordova.js"></script>
 ```
 
-Add reference to dependencies below default cordova.js line
+Add reference to other dependencies below default cordova.js line
 
 ```sh
 <!-- charts -->
 <script src="lib/d3/d3.js"></script>
 ```
 
-#### /www/js/
-
-- add a recent copy of ng-cordova.js (http://ngcordova.com/docs/install/)
-- replace or clean out app.js, controllers.js, services.js
-    - this is where things get messy when removing and reformating a lot of code to rename or eliminate tabs and inject dependencies in app.js and controllers.js
-
-#### /www/templates/
-
-- rename and replace or clean out template htmls
-
-# Template files
+# Copy code from this repository
 #### /onePage_deviceMotion_d3/
 
 This single page app (with a settings page allotted for in UI-Router) includes deviceMotion and d3 integration.
