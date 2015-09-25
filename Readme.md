@@ -31,7 +31,7 @@ If you are using a cordova plugin, add it now.
 
 ```sh
 $ cordova plugin add cordova-plugin-device-motion
-**good to always add**
+**also always good to add**
 $ cordova plugin add org.apache.cordova.statusbar
 ```
 
