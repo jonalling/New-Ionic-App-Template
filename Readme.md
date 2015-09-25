@@ -80,10 +80,10 @@ Add reference to dependencies below default cordova.js line
 - rename and replace or clean out template htmls
 
 # Template files
-#### onePage_deviceMotion_d3
+#### /onePage_deviceMotion_d3/
 
 This single page app (with a settings page allotted for in UI-Router) includes deviceMotion and d3 integration.
 
-#### onePage_blank
+#### /onePage_blank/
 
 This single page app only has place holders for templates and controllers and includes no integrations.
