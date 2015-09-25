@@ -27,7 +27,13 @@ $ ionic platform add ios
 $ ionic platform add android
 ```
 
-If you are using a cordova plugin, add it now.
+If you are using a cordova plugin, install ngCordova
+
+```sh
+$ bower install ngCordova
+```
+
+And then add any plugins (http://ngcordova.com/docs/plugins/)
 
 ```sh
 $ cordova plugin add cordova-plugin-device-motion
