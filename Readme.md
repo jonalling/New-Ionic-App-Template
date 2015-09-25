@@ -58,7 +58,7 @@ $ ionic build ios
 For cordova plugins add reference to ng-cordova.js, above default cordova.js line
 
 ```sh
-<script src="js/ng-cordova.js"></script>
+<script src="lib/ngCordova/dist/ng-cordova.js"></script>
 <script src="cordova.js"></script>
 ```
 
