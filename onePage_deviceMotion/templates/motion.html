@@ -1,0 +1,18 @@
+<ion-view hide-nav-bar="true" class="motion">
+  <ion-content class="padding" scroll="true">
+    <div id="main" style="width:100%">
+      <svg ng-attr-height="{{svgHeight}}" ng-attr-width="{{width}}">
+        <circle ng-repeat="circle in circles"
+          ng-attr-cx="{{circle.x}}"
+          ng-attr-cy="{{circle.y}}"
+          ng-attr-r="{{circle.r}}"
+          fill="#6DB3B5"
+          fill-opacity="{{circle.opacity}}">
+        </circle>
+      </svg>
+      <svg ng-attr-height="{{chartHeight}}" ng-attr-width="{{width}}">
+        <path class="line" ng-attr-d="{{line(data)}}"></path>
+      </svg>
+    </div>
+  </ion-content>
+</ion-view>
