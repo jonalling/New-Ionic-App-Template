@@ -65,7 +65,7 @@ Add reference to dependencies
 
 #### /www/js/
 
-- add a copy of ng-cordova.js
+- add a recent copy of ng-cordova.js (http://ngcordova.com/docs/install/)
 - replace or clean out app.js, controllers.js, services.js
     - this is where things get messy when removing and reformating a lot of code to rename or eliminate tabs and inject dependencies in app.js and controllers.js
 
