@@ -1,34 +1,14 @@
-/* Empty. Add your own CSS if you like */
-
-/* Main color pallet http://colorhunt.co/#2b39643482aa6db3b5f9cc7b */
-
 .motion {
-  background-color: #2B3964;
-}
-
-.count {
-  background-color: #FFE180;
-}
-
-.motionDot {
-
-}
-
-.line {
-  fill: none;
-  stroke: #F9CC7B;
-  stroke-width: 1.5px;
-}
-
-.countLine {
-  fill: none;
-  stroke: #8B3C76;
-  stroke-width: 3px;
-}
-
-
-#second {
   background-color: white;
-  color: black;
-  height: 204px;
 }
+
+#content {
+  background-color: #6DB3B5;
+}
+
+#main {
+  background-color: #2B3964;
+  color: #6DB3B5;
+}
+
+/* Add your own CSS if you like */

@@ -1,18 +1,21 @@
-<ion-view hide-nav-bar="true" class="motion">
-  <ion-content class="padding" scroll="true">
-    <div id="main" style="width:100%">
-      <svg ng-attr-height="{{svgHeight}}" ng-attr-width="{{width}}">
-        <circle ng-repeat="circle in circles"
-          ng-attr-cx="{{circle.x}}"
-          ng-attr-cy="{{circle.y}}"
-          ng-attr-r="{{circle.r}}"
-          fill="#6DB3B5"
-          fill-opacity="{{circle.opacity}}">
-        </circle>
-      </svg>
-      <svg ng-attr-height="{{chartHeight}}" ng-attr-width="{{width}}">
-        <path class="line" ng-attr-d="{{line(data)}}"></path>
-      </svg>
+<ion-view view-title="Motion" class="motion">
+  <ion-content id="content" class="padding has-header" scroll="true">
+    Content Width: {{contentWidth}} </br>
+    Content Height: {{contentHeight}}
+    <div id="main">
+      This text is in a div that is the size of the window inside the ionic padding if applicable.
+      </br>
+      </br>
+      Width: {{width}}
+    </div>
+    <div class="list card">
+      <div class="item item-divider">This is an ionic card</div>
+      <div class="item item-body">
+        Device Acceleration Data</br>
+        X: {{X}}</br>
+        Y: {{Y}}</br>
+        Z: {{Z}}
+      </div>
     </div>
   </ion-content>
 </ion-view>
