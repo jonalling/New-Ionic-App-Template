@@ -69,6 +69,10 @@ Add reference to other dependencies below default cordova.js line
 ```
 
 # Copy code from this repository
-#### /onePage_deviceMotion_d3/
+#### /onePage_deviceMotion_d3/www/
 
 This single page app (with a settings page allotted for in UI-Router) includes deviceMotion and d3 integration.
+
+#### /Trails_App/www/
+
+Single page app including deviceMotion and d3 integration, interactive svg visual graphics with scatter and line plot
