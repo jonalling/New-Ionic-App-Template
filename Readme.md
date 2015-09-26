@@ -70,7 +70,7 @@ Add reference to other dependencies below default cordova.js line
 
 ----
 ----
-#### Stop here if you just want the Ionic default template
+#### Stop here if you just want the Ionic default tabs template
 ----
 ----
 
