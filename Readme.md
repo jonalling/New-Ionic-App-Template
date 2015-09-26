@@ -61,7 +61,7 @@ For cordova plugins add reference to ng-cordova.js, above default cordova.js lin
 <script src="cordova.js"></script>
 ```
 
-Add reference to other dependencies below default cordova.js line
+Add reference to other dependencies below default cordova.js line if applicable
 
 ```sh
 <!-- charts -->
