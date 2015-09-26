@@ -68,7 +68,7 @@ Add reference to other dependencies below default cordova.js line
 <script src="lib/d3/d3.js"></script>
 ```
 
-# Copy code from this repository
+# Copy code from one of these repositories
 #### /onePage_deviceMotion_d3/www/
 
 Clean single page app (with a settings page allotted for in UI-Router) including deviceMotion and d3 integration.
