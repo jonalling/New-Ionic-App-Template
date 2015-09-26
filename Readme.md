@@ -61,6 +61,10 @@ For cordova plugins add reference to ng-cordova.js, above default cordova.js lin
 <script src="cordova.js"></script>
 ```
 
+----
+#### Stop here if you just want the Ionic default template
+----
+
 Add reference to other dependencies below default cordova.js line
 
 ```sh
