@@ -61,16 +61,19 @@ For cordova plugins add reference to ng-cordova.js, above default cordova.js lin
 <script src="cordova.js"></script>
 ```
 
-----
-#### Stop here if you just want the Ionic default template
-----
-
 Add reference to other dependencies below default cordova.js line
 
 ```sh
 <!-- charts -->
 <script src="lib/d3/d3.js"></script>
 ```
+
+----
+----
+#### Stop here if you just want the Ionic default template
+----
+----
+
 
 # Copy code from one of these repositories
 #### /onePage_deviceMotion_d3/www/
