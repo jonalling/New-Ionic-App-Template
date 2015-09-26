@@ -1,0 +1,15 @@
+/* Main color pallet http://colorhunt.co/#2b39643482aa6db3b5f9cc7b */
+
+#content {
+  background-color: #2B3964;
+}
+
+#main {
+  width: 100%;
+}
+
+.line {
+  fill: none;
+  stroke: #F9CC7B;
+  stroke-width: 1.5px;
+}
