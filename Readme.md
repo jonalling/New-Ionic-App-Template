@@ -38,7 +38,7 @@ And then add any plugins (http://ngcordova.com/docs/plugins/)
 ```sh
 $ cordova plugin add cordova-plugin-device-motion
 **also always good to add**
-$ cordova plugin add org.apache.cordova.statusbar
+$ cordova plugin add cordova-plugin-statusbar
 ```
 
 If you have other dependencies you want to add (i.e. d3.js), do that next. 
