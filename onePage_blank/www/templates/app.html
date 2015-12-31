@@ -1,0 +1,17 @@
+<ion-view class="app">
+  <ion-nav-buttons side="left">
+    <button class="button button-icon button-positive ion-gear-a" ng-click="openSettings()">
+    </button>
+  </ion-nav-buttons>
+  <ion-content class="padding custom-text" scroll="false">
+    Full Width: {{fullWidth}} </br>
+    Full Height: {{fullHeight}}
+    <div style="height:10px"></div>
+    <div id="main">
+      This text is in a div that is the size of the window inside the ionic padding if applicable.
+      </br>
+      Width: {{width}} </br>
+      Height: {{height}}
+    </div>
+  </ion-content>
+</ion-view>
