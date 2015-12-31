@@ -39,8 +39,8 @@ And then add any plugins (http://ngcordova.com/docs/plugins/)
 $ cordova plugin add cordova-plugin-device-motion
 $ cordova plugin add cordova-plugin-ble-central
 $ cordova plugin add cordova-plugin-screen-orientation
-**also always good to add**
 $ cordova plugin add cordova-plugin-statusbar
+etc...
 ```
 
 If you have other dependencies you want to add (i.e. d3.js), do that next. 
