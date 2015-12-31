@@ -82,7 +82,7 @@ Add reference to other dependencies below default cordova.js line if applicable
 
 Clean single page app with settings modal.
 
-#### /onePage_deviceMotion_d3/www/
+#### /onePage_deviceMotion/www/
 
 Clean single page app (with a settings page allotted for in UI-Router) including deviceMotion and d3 integration.
 
